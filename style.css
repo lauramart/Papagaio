@@ -221,15 +221,38 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Large Audio Button (Featured Card) */
 .audio-btn.large {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 1.5rem;
-    border-width: 2px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid var(--border-light);
+    background: var(--bg-elevated);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: var(--transition);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .audio-btn.large:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
+    background: var(--bg-hover);
+    border-color: var(--primary);
+    color: var(--primary);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+}
+
+.audio-btn.large:active {
+    transform: scale(0.95);
+}
+
+.audio-btn.large.playing {
+    animation: pulse-audio 1s infinite;
+    border-color: var(--primary);
+    color: var(--primary);
 }
 
 .challenge-hint {
@@ -362,12 +385,12 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .modal-word-row .audio-btn {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     flex-shrink: 0;
     margin-bottom: 0;
 }
@@ -375,6 +398,7 @@ body {
 .modal-word-row .modal-word {
     margin-bottom: 0;
 }
+
 
 /* Audio button in word cards (biblioteca) */
 .word-card-header {
@@ -1132,11 +1156,11 @@ body {
 }
 
 .difficulty-rating {
-    margin-top: auto;
     padding: 1rem;
     background: var(--bg-secondary);
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
+    margin-bottom: 0.75rem;
 }
 
 .rating-prompt {
@@ -1272,37 +1296,123 @@ body {
     color: white;
 }
 
-/* Swipe out animation */
+/* Swipe Overlays */
+.swipe-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-2xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+    z-index: 100;
+}
+
+.swipe-overlay-text {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--radius-lg);
+    border: 4px solid;
+}
+
+.swipe-left-overlay {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.swipe-left-overlay .swipe-overlay-text {
+    color: #ef4444;
+    border-color: #ef4444;
+    background: rgba(239, 68, 68, 0.15);
+}
+
+.swipe-up-overlay {
+    background: rgba(59, 130, 246, 0.2);
+}
+
+.swipe-up-overlay .swipe-overlay-text {
+    color: #3b82f6;
+    border-color: #3b82f6;
+    background: rgba(59, 130, 246, 0.15);
+}
+
+.swipe-right-overlay {
+    background: rgba(34, 197, 94, 0.2);
+}
+
+.swipe-right-overlay .swipe-overlay-text {
+    color: #22c55e;
+    border-color: #22c55e;
+    background: rgba(34, 197, 94, 0.15);
+}
+
+/* Show overlay during drag */
+.featured-card.dragging-left .swipe-left-overlay,
+.featured-card.dragging-up .swipe-up-overlay,
+.featured-card.dragging-right .swipe-right-overlay {
+    opacity: 1;
+}
+
+/* Dragging state */
+.featured-card.dragging .featured-card-inner {
+    transition: none;
+}
+
+.featured-card.dragging {
+    cursor: grabbing;
+}
+
+/* Swipe out animations */
 .featured-card.swipe-left .featured-card-inner {
-    animation: swipeLeft 0.4s ease-out forwards;
+    animation: swipeOutLeft 0.4s ease-out forwards;
 }
 
 .featured-card.swipe-right .featured-card-inner {
-    animation: swipeRight 0.4s ease-out forwards;
+    animation: swipeOutRight 0.4s ease-out forwards;
 }
 
 .featured-card.swipe-up .featured-card-inner {
-    animation: swipeUp 0.4s ease-out forwards;
+    animation: swipeOutUp 0.4s ease-out forwards;
 }
 
-@keyframes swipeLeft {
+@keyframes swipeOutLeft {
     to {
-        transform: rotateY(180deg) translateX(-120%) rotate(-5deg);
+        transform: rotateY(180deg) translateX(150%) rotate(15deg);
         opacity: 0;
     }
 }
 
-@keyframes swipeRight {
+@keyframes swipeOutRight {
     to {
-        transform: rotateY(180deg) translateX(120%) rotate(5deg);
+        transform: rotateY(180deg) translateX(-150%) rotate(-15deg);
         opacity: 0;
     }
 }
 
-@keyframes swipeUp {
+@keyframes swipeOutUp {
     to {
-        transform: rotateY(180deg) translateY(-50%) scale(0.9);
+        transform: rotateY(180deg) translateY(-80%) scale(0.8);
         opacity: 0;
+    }
+}
+
+/* Card entrance animation */
+.featured-card.entering .featured-card-inner {
+    animation: cardEnter 0.35s ease-out forwards;
+}
+
+@keyframes cardEnter {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }
 

@@ -35,7 +35,8 @@
         "A água do mar é salgada."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*á·gua"
     },
     {
       "id": 2,
@@ -75,7 +76,8 @@
         "Nós comemos juntos no restaurante."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "co·*mer"
     },
     {
       "id": 3,
@@ -90,7 +92,8 @@
         "Ela comprou um vestido bonito."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "bo·*ni·to"
     },
     {
       "id": 4,
@@ -109,7 +112,8 @@
         "Eles compraram uma casa nova."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ca·sa"
     },
     {
       "id": 5,
@@ -149,7 +153,8 @@
         "Ela falou comigo ontem."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "fa·*lar"
     },
     {
       "id": 6,
@@ -164,7 +169,8 @@
         "Ele mora em uma casa grande."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*gran·de"
     },
     {
       "id": 7,
@@ -183,7 +189,8 @@
         "O livro está na estante."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*li·vro"
     },
     {
       "id": 8,
@@ -223,7 +230,8 @@
         "As crianças dormem cedo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "dor·*mir"
     },
     {
       "id": 9,
@@ -238,7 +246,8 @@
         "Ela parece feliz no novo trabalho."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "fe·*liz"
     },
     {
       "id": 10,
@@ -257,7 +266,8 @@
         "Hoje o sol está muito forte."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*sol"
     },
     {
       "id": 11,
@@ -449,7 +459,8 @@
         "Tenha um bom dia!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*bom"
     },
     {
       "id": 18,
@@ -464,7 +475,8 @@
         "Ela é nova na empresa."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*no·vo"
     },
     {
       "id": 19,
@@ -662,7 +674,8 @@
         "Você pode entrar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "po·*der"
     },
     {
       "id": 25,
@@ -702,7 +715,8 @@
         "O que você quer fazer?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "que·*rer"
     },
     {
       "id": 26,
@@ -742,7 +756,8 @@
         "Você sabe onde fica o banco?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sa·*ber"
     },
     {
       "id": 27,
@@ -919,7 +934,8 @@
         "Ela trabalha muito."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "tra·ba·*lhar"
     },
     {
       "id": 33,
@@ -1014,7 +1030,8 @@
         "O carro está na garagem."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*car·ro"
     },
     {
       "id": 38,
@@ -1206,7 +1223,8 @@
         "Ela ama viajar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·*mar"
     },
     {
       "id": 47,
@@ -1263,7 +1281,8 @@
         "O pão está quentinho."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*pão"
     },
     {
       "id": 50,
@@ -1282,7 +1301,8 @@
         "O café da manhã está pronto."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ca·*fé"
     },
     {
       "id": 51,
@@ -1322,7 +1342,8 @@
         "Vamos beber algo?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "be·*ber"
     },
     {
       "id": 52,
@@ -1337,7 +1358,8 @@
         "Ele tem um carro pequeno."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pe·*que·no"
     },
     {
       "id": 53,
@@ -1352,7 +1374,8 @@
         "Meu avô é velho mas ativo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ve·lho"
     },
     {
       "id": 54,
@@ -1367,7 +1390,8 @@
         "Os jovens têm energia."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*jo·vem"
     },
     {
       "id": 55,
@@ -1442,7 +1466,8 @@
         "Preciso de uma resposta rápida."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*rá·pi·do"
     },
     {
       "id": 60,
@@ -1457,7 +1482,8 @@
         "O processo é muito lento."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*len·to"
     },
     {
       "id": 61,
@@ -1472,7 +1498,8 @@
         "A sopa está quente."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*quen·te"
     },
     {
       "id": 62,
@@ -1487,7 +1514,8 @@
         "A água está fria."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*fri·o"
     },
     {
       "id": 63,
@@ -1502,7 +1530,8 @@
         "A notícia foi triste."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*tris·te"
     },
     {
       "id": 64,
@@ -1561,7 +1590,8 @@
         "Preciso estudar para a prova."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·tu·*dar"
     },
     {
       "id": 66,
@@ -1601,7 +1631,8 @@
         "As crianças aprendem rápido."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·pren·*der"
     },
     {
       "id": 67,
@@ -1641,7 +1672,8 @@
         "Vou ensinar você a cozinhar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "en·si·*nar"
     },
     {
       "id": 68,
@@ -1681,7 +1713,8 @@
         "Ela escreve muito bem."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·cre·*ver"
     },
     {
       "id": 69,
@@ -1761,7 +1794,8 @@
         "Você ouviu o que eu disse?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ou·*vir"
     },
     {
       "id": 71,
@@ -1801,7 +1835,8 @@
         "O que você está pensando?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pen·*sar"
     },
     {
       "id": 72,
@@ -1841,7 +1876,8 @@
         "Como você se sente?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sen·*tir"
     },
     {
       "id": 73,
@@ -1961,7 +1997,8 @@
         "Ela comprou um vestido novo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "com·*prar"
     },
     {
       "id": 76,
@@ -2001,7 +2038,8 @@
         "Vou vender minha bicicleta."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ven·*der"
     },
     {
       "id": 77,
@@ -2041,7 +2079,8 @@
         "Como você quer pagar?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pa·*gar"
     },
     {
       "id": 78,
@@ -2081,7 +2120,8 @@
         "Ele sempre me ajuda."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·ju·*dar"
     },
     {
       "id": 79,
@@ -2121,7 +2161,8 @@
         "Eu espero que você venha."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·pe·*rar"
     },
     {
       "id": 80,
@@ -2161,7 +2202,8 @@
         "O trem chegou atrasado."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "che·*gar"
     },
     {
       "id": 81,
@@ -2201,7 +2243,8 @@
         "Vamos partir amanhã cedo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "par·*tir"
     },
     {
       "id": 82,
@@ -2241,7 +2284,8 @@
         "Onde fica o banco?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "fi·*car"
     },
     {
       "id": 83,
@@ -2281,7 +2325,8 @@
         "O cachorro corre no parque."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cor·*rer"
     },
     {
       "id": 84,
@@ -2321,7 +2366,8 @@
         "Ela anda muito rápido."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "an·*dar"
     },
     {
       "id": 85,
@@ -2359,7 +2405,8 @@
         "A porta está aberta."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*por·ta"
     },
     {
       "id": 87,
@@ -2378,7 +2425,8 @@
         "A janela tem uma vista linda."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ja·*ne·la"
     },
     {
       "id": 88,
@@ -2397,7 +2445,8 @@
         "A mesa é de madeira."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*me·sa"
     },
     {
       "id": 89,
@@ -2416,7 +2465,8 @@
         "A cadeira é confortável."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ca·*dei·ra"
     },
     {
       "id": 90,
@@ -2492,7 +2542,8 @@
         "Qual é o seu telefone?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "te·le·*fo·ne"
     },
     {
       "id": 94,
@@ -2511,7 +2562,8 @@
         "O computador está lento."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "com·pu·ta·*dor"
     },
     {
       "id": 95,
@@ -2526,7 +2578,8 @@
         "Ela é muito linda."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*lin·do"
     },
     {
       "id": 96,
@@ -2541,7 +2594,8 @@
         "Isso foi uma atitude feia."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*fei·o"
     },
     {
       "id": 97,
@@ -2556,7 +2610,8 @@
         "O vento está forte."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*for·te"
     },
     {
       "id": 98,
@@ -2571,7 +2626,8 @@
         "O sinal está fraco."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*fra·co"
     },
     {
       "id": 99,
@@ -2586,7 +2642,8 @@
         "O país é rico em recursos."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ri·co"
     },
     {
       "id": 100,
@@ -2601,7 +2658,8 @@
         "Coitado, pobre homem."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*po·bre"
     },
     {
       "id": 101,
@@ -2641,7 +2699,8 @@
         "Vamos nos encontrar amanhã."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "en·con·*trar"
     },
     {
       "id": 102,
@@ -2801,7 +2860,8 @@
         "Ela olhou pela janela."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "o·*lhar"
     },
     {
       "id": 106,
@@ -2961,7 +3021,8 @@
         "Ele entrou na sala."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "en·*trar"
     },
     {
       "id": 110,
@@ -3001,7 +3062,8 @@
         "Ela saiu cedo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sa·*ir"
     },
     {
       "id": 111,
@@ -3041,7 +3103,8 @@
         "Quando você volta?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "vol·*tar"
     },
     {
       "id": 112,
@@ -3161,7 +3224,8 @@
         "Você conhece este lugar?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "co·nhe·*cer"
     },
     {
       "id": 115,
@@ -3281,7 +3345,8 @@
         "Não me lembro."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "lem·*brar"
     },
     {
       "id": 118,
@@ -3321,7 +3386,8 @@
         "Não esqueça de ligar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·que·*cer"
     },
     {
       "id": 119,
@@ -3361,7 +3427,8 @@
         "O filme começa às oito."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "co·me·*çar"
     },
     {
       "id": 120,
@@ -4072,7 +4139,8 @@
         "Primeiro, vamos comer."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pri·*mei·ro"
     },
     {
       "id": 158,
@@ -4087,7 +4155,8 @@
         "Por último..."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*úl·ti·mo"
     },
     {
       "id": 159,
@@ -4102,7 +4171,8 @@
         "Próximo, por favor!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*pró·xi·mo"
     },
     {
       "id": 160,
@@ -4147,7 +4217,8 @@
         "Fale mais alto."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*al·to"
     },
     {
       "id": 163,
@@ -4162,7 +4233,8 @@
         "Fale mais baixo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*bai·xo"
     },
     {
       "id": 164,
@@ -4177,7 +4249,8 @@
         "Estou cheio de trabalho."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*chei·o"
     },
     {
       "id": 165,
@@ -4192,7 +4265,8 @@
         "De mãos vazias."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "va·*zi·o"
     },
     {
       "id": 166,
@@ -4207,7 +4281,8 @@
         "Parece cansado."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "can·*sa·do"
     },
     {
       "id": 167,
@@ -4297,7 +4372,8 @@
         "Claro que sim!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*cla·ro"
     },
     {
       "id": 173,
@@ -4312,7 +4388,8 @@
         "Cor escura."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·*cu·ro"
     },
     {
       "id": 174,
@@ -4357,7 +4434,8 @@
         "Fiquei doente."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "do·*en·te"
     },
     {
       "id": 177,
@@ -4537,7 +4615,8 @@
         "Você precisa descansar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pre·ci·*sar"
     },
     {
       "id": 184,
@@ -4577,7 +4656,8 @@
         "Uso óculos."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "u·*sar"
     },
     {
       "id": 185,
@@ -4617,7 +4697,8 @@
         "As coisas mudam."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mu·*dar"
     },
     {
       "id": 186,
@@ -4657,7 +4738,8 @@
         "Vou mostrar para você."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mos·*trar"
     },
     {
       "id": 187,
@@ -4777,7 +4859,8 @@
         "Não quero perder tempo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "per·*der"
     },
     {
       "id": 190,
@@ -4817,7 +4900,8 @@
         "Quanto você ganha?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ga·*nhar"
     },
     {
       "id": 191,
@@ -4857,7 +4941,8 @@
         "Jogue a bola."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "jo·*gar"
     },
     {
       "id": 192,
@@ -4937,7 +5022,8 @@
         "Vamos cantar juntos."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "can·*tar"
     },
     {
       "id": 194,
@@ -4977,7 +5063,8 @@
         "Vamos dançar?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "dan·*çar"
     },
     {
       "id": 195,
@@ -5017,7 +5104,8 @@
         "Vamos nadar na piscina."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "na·*dar"
     },
     {
       "id": 196,
@@ -5057,7 +5145,8 @@
         "Gosto de viajar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "vi·a·*jar"
     },
     {
       "id": 197,
@@ -5137,7 +5226,8 @@
         "Não me acorde!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·cor·*dar"
     },
     {
       "id": 199,
@@ -5177,7 +5267,8 @@
         "Levante a mão."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "le·van·*tar"
     },
     {
       "id": 200,
@@ -5217,7 +5308,8 @@
         "Vou sentar aqui."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sen·*tar"
     },
     {
       "id": 201,
@@ -5236,7 +5328,8 @@
         "Vou ao mar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*mar"
     },
     {
       "id": 202,
@@ -5255,7 +5348,8 @@
         "A praia está cheia."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*prai·a"
     },
     {
       "id": 203,
@@ -5274,7 +5368,8 @@
         "A montanha é alta."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mon·*ta·nha"
     },
     {
       "id": 204,
@@ -5293,7 +5388,8 @@
         "Nadamos no rio."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ri·o"
     },
     {
       "id": 205,
@@ -5331,7 +5427,8 @@
         "Sentamos sob a árvore."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ár·vo·re"
     },
     {
       "id": 207,
@@ -5350,7 +5447,8 @@
         "Comprei flores."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*flor"
     },
     {
       "id": 208,
@@ -5445,7 +5543,8 @@
         "Comi peixe no jantar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*pei·xe"
     },
     {
       "id": 213,
@@ -5464,7 +5563,8 @@
         "Gosto de chuva."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*chu·va"
     },
     {
       "id": 214,
@@ -5483,7 +5583,8 @@
         "Senti o vento."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ven·to"
     },
     {
       "id": 215,
@@ -5502,7 +5603,8 @@
         "Olhe para o céu."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*céu"
     },
     {
       "id": 216,
@@ -5521,7 +5623,8 @@
         "Uma estrela cadente."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·*tre·la"
     },
     {
       "id": 217,
@@ -5540,7 +5643,8 @@
         "Luz da lua."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*lu·a"
     },
     {
       "id": 218,
@@ -5559,7 +5663,8 @@
         "Plantar na terra."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ter·ra"
     },
     {
       "id": 219,
@@ -5578,7 +5683,8 @@
         "Cuidado com o fogo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*fo·go"
     },
     {
       "id": 220,
@@ -6606,7 +6712,8 @@
         "Procure no armário."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pro·cu·*rar"
     },
     {
       "id": 273,
@@ -6806,7 +6913,8 @@
         "Você vai gostar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "gos·*tar"
     },
     {
       "id": 278,
@@ -6846,7 +6954,8 @@
         "Não me odeie."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "o·di·*ar"
     },
     {
       "id": 279,
@@ -7166,7 +7275,8 @@
         "A loja abre às nove."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·*brir"
     },
     {
       "id": 287,
@@ -7206,7 +7316,8 @@
         "A loja fechou."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "fe·*char"
     },
     {
       "id": 288,
@@ -7246,7 +7357,8 @@
         "Ligue a luz."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "li·*gar"
     },
     {
       "id": 289,
@@ -7286,7 +7398,8 @@
         "Desligou a TV."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "des·li·*gar"
     },
     {
       "id": 290,
@@ -7326,7 +7439,8 @@
         "Vou limpar a casa."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "lim·*par"
     },
     {
       "id": 291,
@@ -7366,7 +7480,8 @@
         "Vou cozinhar o jantar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "co·zi·*nhar"
     },
     {
       "id": 292,
@@ -7406,7 +7521,8 @@
         "Vou lavar a roupa."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "la·*var"
     },
     {
       "id": 293,
@@ -7446,7 +7562,8 @@
         "O que você vai vestir?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ves·*tir"
     },
     {
       "id": 294,
@@ -7486,7 +7603,8 @@
         "Tirei uma foto."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ti·*rar"
     },
     {
       "id": 295,
@@ -7526,7 +7644,8 @@
         "Onde coloco isso?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "co·lo·*car"
     },
     {
       "id": 296,
@@ -7566,7 +7685,8 @@
         "Não se mova!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mo·*ver"
     },
     {
       "id": 297,
@@ -7606,7 +7726,8 @@
         "As crianças pulam."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pu·*lar"
     },
     {
       "id": 298,
@@ -7646,7 +7767,8 @@
         "Os preços subiram."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "su·*bir"
     },
     {
       "id": 299,
@@ -7686,7 +7808,8 @@
         "O elevador desceu."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "des·*cer"
     },
     {
       "id": 300,
@@ -7726,7 +7849,8 @@
         "Não pare de tentar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pa·*rar"
     },
     {
       "id": 301,
@@ -8608,7 +8732,8 @@
         "Criamos uma empresa."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cri·*ar"
     },
     {
       "id": 353,
@@ -8731,7 +8856,8 @@
         "A vida continua."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "con·ti·nu·*ar"
     },
     {
       "id": 356,
@@ -11495,7 +11621,8 @@
         "Aumentar a produção."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "au·men·*tar"
     },
     {
       "id": 498,
@@ -11946,7 +12073,8 @@
         "Descobrir o mundo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "des·co·*brir"
     },
     {
       "id": 509,
@@ -13078,7 +13206,8 @@
         "Preciso me organizar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "or·ga·ni·*zar"
     },
     {
       "id": 556,
@@ -13201,7 +13330,8 @@
         "Separar em grupos."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "se·pa·*rar"
     },
     {
       "id": 559,
@@ -13242,7 +13372,8 @@
         "Juntar as peças."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "jun·*tar"
     },
     {
       "id": 560,
@@ -13283,7 +13414,8 @@
         "Dividir o quarto."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "di·vi·*dir"
     },
     {
       "id": 561,
@@ -14190,7 +14322,8 @@
         "Laranja madura."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "la·*ran·ja"
     },
     {
       "id": 608,
@@ -14642,7 +14775,8 @@
         "Arroz integral."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ar·*roz"
     },
     {
       "id": 631,
@@ -14662,7 +14796,8 @@
         "Feijão tropeiro."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "fei·*jão"
     },
     {
       "id": 632,
@@ -14682,7 +14817,8 @@
         "Comer carne."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*car·ne"
     },
     {
       "id": 633,
@@ -14722,7 +14858,8 @@
         "Omelete de ovos."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*o·vo"
     },
     {
       "id": 635,
@@ -14742,7 +14879,8 @@
         "Café com leite."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*lei·te"
     },
     {
       "id": 636,
@@ -14762,7 +14900,8 @@
         "Queijo ralado."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*quei·jo"
     },
     {
       "id": 637,
@@ -14782,7 +14921,8 @@
         "Comer frutas."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*fru·ta"
     },
     {
       "id": 638,
@@ -14822,7 +14962,8 @@
         "Comer legumes."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "le·*gu·me"
     },
     {
       "id": 640,
@@ -14842,7 +14983,8 @@
         "Colher de açúcar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·*çú·car"
     },
     {
       "id": 641,
@@ -14862,7 +15004,8 @@
         "Sem sal."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*sal"
     },
     {
       "id": 642,
@@ -14902,7 +15045,8 @@
         "Derreter a manteiga."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "man·*tei·ga"
     },
     {
       "id": 644,
@@ -14922,7 +15066,8 @@
         "Tomar suco."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*su·co"
     },
     {
       "id": 645,
@@ -14942,7 +15087,8 @@
         "Tomar chá."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*chá"
     },
     {
       "id": 646,
@@ -14962,7 +15108,8 @@
         "Cerveja artesanal."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cer·*ve·ja"
     },
     {
       "id": 647,
@@ -14982,7 +15129,8 @@
         "Vinho branco."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*vi·nho"
     },
     {
       "id": 648,
@@ -15022,7 +15170,8 @@
         "Sorvete de frutas."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sor·*ve·te"
     },
     {
       "id": 650,
@@ -15042,7 +15191,8 @@
         "Bolo de chocolate."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*bo·lo"
     },
     {
       "id": 651,
@@ -17153,7 +17303,8 @@
         "Morrer de rir."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*rir"
     },
     {
       "id": 754,
@@ -17194,7 +17345,8 @@
         "Chorar de rir."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cho·*rar"
     },
     {
       "id": 755,
@@ -17358,7 +17510,8 @@
         "Empurrar o carrinho."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "em·pur·*rar"
     },
     {
       "id": 759,
@@ -17399,7 +17552,8 @@
         "Puxar a corda."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pu·*xar"
     },
     {
       "id": 760,
@@ -17440,7 +17594,8 @@
         "Jogar fora."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "jo·*gar"
     },
     {
       "id": 761,
@@ -18112,7 +18267,8 @@
         "Resposta inteligente."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "in·te·li·*gen·te"
     },
     {
       "id": 798,
@@ -18128,7 +18284,8 @@
         "Que burro!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*bur·ro"
     },
     {
       "id": 799,
@@ -18201,7 +18358,8 @@
         "A campainha tocou."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "to·*car"
     },
     {
       "id": 802,
@@ -18365,7 +18523,8 @@
         "Misturar as cores."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mis·tu·*rar"
     },
     {
       "id": 806,
@@ -18488,7 +18647,8 @@
         "Dobrar o valor."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "do·*brar"
     },
     {
       "id": 809,
@@ -18529,7 +18689,8 @@
         "Não desligue, eu ligo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "li·*gar"
     },
     {
       "id": 810,
@@ -18570,7 +18731,8 @@
         "Vou desligar agora."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "des·li·*gar"
     },
     {
       "id": 811,
@@ -19090,7 +19252,8 @@
         "Casa de pedra."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*pe·dra"
     },
     {
       "id": 837,
@@ -19110,7 +19273,8 @@
         "Areia movediça."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·*rei·a"
     },
     {
       "id": 838,
@@ -19590,7 +19754,8 @@
         "Chuva forte."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*chu·va"
     },
     {
       "id": 862,
@@ -19630,7 +19795,8 @@
         "Moinho de vento."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ven·to"
     },
     {
       "id": 864,
@@ -19650,7 +19816,8 @@
         "Nas nuvens."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*nu·vem"
     },
     {
       "id": 865,
@@ -19750,7 +19917,8 @@
         "Estrela do mar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·*tre·la"
     },
     {
       "id": 870,
@@ -19770,7 +19938,8 @@
         "Lua de mel."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*lu·a"
     },
     {
       "id": 871,
@@ -19790,7 +19959,8 @@
         "Vista da montanha."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mon·*ta·nha"
     },
     {
       "id": 872,
@@ -19810,7 +19980,8 @@
         "Margem do rio."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ri·o"
     },
     {
       "id": 873,
@@ -20131,7 +20302,8 @@
         "O preço subiu."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "su·*bir"
     },
     {
       "id": 888,
@@ -20172,7 +20344,8 @@
         "O sol desceu."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "des·*cer"
     },
     {
       "id": 889,
@@ -20213,7 +20386,8 @@
         "Empurrar o carrinho."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "em·pur·*rar"
     },
     {
       "id": 890,
@@ -20254,7 +20428,8 @@
         "Puxa, que legal!"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pu·*xar"
     },
     {
       "id": 891,
@@ -20295,7 +20470,8 @@
         "Levantar peso."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "le·van·*tar"
     },
     {
       "id": 892,
@@ -20336,7 +20512,8 @@
         "Vamos sentar?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sen·*tar"
     },
     {
       "id": 893,
@@ -20377,7 +20554,8 @@
         "Hora de deitar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "dei·*tar"
     },
     {
       "id": 894,
@@ -20418,7 +20596,8 @@
         "Me acorda às sete."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·cor·*dar"
     },
     {
       "id": 895,
@@ -20541,7 +20720,8 @@
         "Morrer de rir."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*rir"
     },
     {
       "id": 898,
@@ -20582,7 +20762,8 @@
         "Vontade de chorar."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cho·*rar"
     },
     {
       "id": 899,
@@ -21004,7 +21185,8 @@
         "Casquinha de sorvete."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "sor·*ve·te"
     },
     {
       "id": 918,
@@ -21024,7 +21206,8 @@
         "Ovo de chocolate."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "cho·co·*la·te"
     },
     {
       "id": 919,
@@ -21064,7 +21247,8 @@
         "Biscoito caseiro."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "bis·*coi·to"
     },
     {
       "id": 921,
@@ -21588,7 +21772,8 @@
         "Quem te ensinou?"
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "en·si·*nar"
     },
     {
       "id": 943,
@@ -21629,7 +21814,8 @@
         "Quero aprender."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "a·pren·*der"
     },
     {
       "id": 944,
@@ -21670,7 +21856,8 @@
         "Me lembra de algo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "lem·*brar"
     },
     {
       "id": 945,
@@ -21711,7 +21898,8 @@
         "Esquecer o passado."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·que·*cer"
     },
     {
       "id": 946,
@@ -22400,7 +22588,8 @@
         "Pensamento profundo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "pro·*fun·do"
     },
     {
       "id": 967,
@@ -22416,7 +22605,8 @@
         "Piscina rasa."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ra·so"
     },
     {
       "id": 968,
@@ -22448,7 +22638,8 @@
         "Sorriso largo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*lar·go"
     },
     {
       "id": 970,
@@ -22464,7 +22655,8 @@
         "Passagem estreita."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "es·*trei·to"
     },
     {
       "id": 971,
@@ -22480,7 +22672,8 @@
         "Muito macio."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "ma·*ci·o"
     },
     {
       "id": 972,
@@ -22496,7 +22689,8 @@
         "Textura áspera."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*ás·pe·ro"
     },
     {
       "id": 973,
@@ -22512,7 +22706,8 @@
         "Piso liso."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*li·so"
     },
     {
       "id": 974,
@@ -22544,7 +22739,8 @@
         "Cabelo molhado."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "mo·*lha·do"
     },
     {
       "id": 976,
@@ -22560,7 +22756,8 @@
         "Pele seca."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*se·co"
     },
     {
       "id": 977,
@@ -22924,7 +23121,8 @@
         "Para baixo."
       ],
       "nivel_maestria": 0,
-      "proxima_revision": null
+      "proxima_revision": null,
+      "fonetica": "*bai·xo"
     },
     {
       "id": 997,

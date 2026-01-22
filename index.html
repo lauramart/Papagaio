@@ -40,6 +40,16 @@
 
             <div class="featured-card-container">
                 <div class="featured-card" id="featured-card">
+                    <!-- Swipe Overlays -->
+                    <div class="swipe-overlay swipe-left-overlay">
+                        <span class="swipe-overlay-text">Errei</span>
+                    </div>
+                    <div class="swipe-overlay swipe-up-overlay">
+                        <span class="swipe-overlay-text">Bom</span>
+                    </div>
+                    <div class="swipe-overlay swipe-right-overlay">
+                        <span class="swipe-overlay-text">Fácil</span>
+                    </div>
                     <div class="featured-card-inner">
                         <!-- Front (O Desafio) -->
                         <div class="featured-card-front">
@@ -49,7 +59,7 @@
                                 <h1 class="challenge-word" id="featured-word"></h1>
                                 <p class="challenge-plural" id="featured-plural"></p>
                                 <button class="audio-btn large" id="featured-audio" aria-label="Ouvir pronúncia">
-                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
                                         <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
                                         <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
@@ -69,23 +79,6 @@
                                 <h2 class="back-word" id="featured-back-word"></h2>
                                 <p class="back-description" id="featured-description"></p>
 
-                                <div class="examples-container">
-                                    <h3>Exemplos</h3>
-                                    <ul class="examples-list" id="featured-examples"></ul>
-                                </div>
-
-                                <div class="conjugations-container" id="featured-conjugations">
-                                    <div class="conjugations-header">
-                                        <h3>Conjugações</h3>
-                                        <select class="tense-selector" id="featured-tense-selector">
-                                            <option value="presente_indicativo">Presente</option>
-                                            <option value="futuro_imediato">Futuro Imediato</option>
-                                            <option value="futuro_presente">Futuro</option>
-                                        </select>
-                                    </div>
-                                    <div class="conjugations-grid" id="featured-conjugations-grid"></div>
-                                </div>
-
                                 <div class="difficulty-rating" id="featured-difficulty-rating">
                                     <p class="rating-prompt">Como foi o desempenho?</p>
                                     <div class="rating-buttons">
@@ -102,6 +95,23 @@
                                             <span class="rating-interval">Ver em 7 dias</span>
                                         </button>
                                     </div>
+                                </div>
+
+                                <div class="examples-container">
+                                    <h3>Exemplos</h3>
+                                    <ul class="examples-list" id="featured-examples"></ul>
+                                </div>
+
+                                <div class="conjugations-container" id="featured-conjugations">
+                                    <div class="conjugations-header">
+                                        <h3>Conjugações</h3>
+                                        <select class="tense-selector" id="featured-tense-selector">
+                                            <option value="presente_indicativo">Presente</option>
+                                            <option value="futuro_imediato">Futuro Imediato</option>
+                                            <option value="futuro_presente">Futuro</option>
+                                        </select>
+                                    </div>
+                                    <div class="conjugations-grid" id="featured-conjugations-grid"></div>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +190,6 @@
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
                                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
-                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
                             </svg>
                         </button>
                     </div>
