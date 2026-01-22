@@ -9,6 +9,7 @@ class PapagaioApp {
         this.words = [];
         this.filteredWords = [];
         this.currentFilter = 'all';
+        this.searchQuery = '';
         this.wordOfTheDay = null;
         this.synth = window.speechSynthesis;
         this.portugueseVoice = null;
@@ -336,6 +337,23 @@ class PapagaioApp {
             e.stopPropagation();
             const word = document.getElementById('modal-word').textContent;
             this.speak(word, e.currentTarget);
+        });
+
+        // Search input
+        const searchInput = document.getElementById('search-input');
+        const searchClear = document.getElementById('search-clear');
+
+        searchInput.addEventListener('input', (e) => {
+            this.searchQuery = e.target.value.toLowerCase().trim();
+            searchClear.style.display = this.searchQuery ? 'flex' : 'none';
+            this.applyFilters();
+        });
+
+        searchClear.addEventListener('click', () => {
+            searchInput.value = '';
+            this.searchQuery = '';
+            searchClear.style.display = 'none';
+            this.applyFilters();
         });
 
         // Library filters
@@ -708,12 +726,32 @@ class PapagaioApp {
             btn.classList.toggle('active', btn.dataset.filter === filter);
         });
 
-        if (filter === 'all') {
-            this.filteredWords = [...this.words];
-        } else {
-            this.filteredWords = this.words.filter(word => word.tipo === filter);
+        this.applyFilters();
+    }
+
+    applyFilters() {
+        // Start with all words
+        let results = [...this.words];
+
+        // Apply category filter
+        if (this.currentFilter !== 'all') {
+            results = results.filter(word => word.tipo === this.currentFilter);
         }
 
+        // Apply search query
+        if (this.searchQuery) {
+            results = results.filter(word => {
+                const searchIn = [
+                    word.palavra,
+                    word.descricao,
+                    word.artigo || '',
+                    word.plural || ''
+                ].join(' ').toLowerCase();
+                return searchIn.includes(this.searchQuery);
+            });
+        }
+
+        this.filteredWords = results;
         this.renderLibraryGrid();
     }
 
