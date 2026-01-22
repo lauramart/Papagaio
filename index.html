@@ -21,34 +21,52 @@
 
         <!-- Section 1: Palavra do Dia -->
         <section class="section palavra-do-dia-section active" id="palavra-do-dia">
+            <!-- All caught up message -->
+            <div class="all-done-container" id="all-done-container" style="display: none;">
+                <div class="all-done-card">
+                    <div class="all-done-icon">🎉</div>
+                    <h2 class="all-done-title">Tudo revisado por hoje!</h2>
+                    <p class="all-done-subtitle">Parabéns! Você não tem palavras pendentes para revisar.</p>
+                    <p class="all-done-stats" id="all-done-stats"></p>
+                    <button class="practice-anyway-btn" id="practice-anyway-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 4v6h-6M1 20v-6h6"/>
+                            <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                        </svg>
+                        Praticar mesmo assim
+                    </button>
+                </div>
+            </div>
+
             <div class="featured-card-container">
                 <div class="featured-card" id="featured-card">
                     <div class="featured-card-inner">
-                        <!-- Front -->
+                        <!-- Front (O Desafio) -->
                         <div class="featured-card-front">
-                            <div class="featured-image-container">
-                                <img src="" alt="" id="featured-image" class="featured-image">
-                                <span class="card-badge" id="featured-type"></span>
-                            </div>
-                            <div class="featured-content">
-                                <h2 class="featured-word" id="featured-word"></h2>
-                                <p class="featured-plural" id="featured-plural"></p>
-                                <p class="featured-description" id="featured-front-description"></p>
-                                <button class="audio-btn" id="featured-audio" aria-label="Ouvir pronúncia">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <span class="evolution-badge" id="featured-evolution-front"></span>
+                            <div class="challenge-content">
+                                <p class="challenge-prompt">Você lembra o que significa?</p>
+                                <h1 class="challenge-word" id="featured-word"></h1>
+                                <p class="challenge-plural" id="featured-plural"></p>
+                                <button class="audio-btn large" id="featured-audio" aria-label="Ouvir pronúncia">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
                                         <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
                                         <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
                                     </svg>
                                 </button>
-                                <p class="featured-hint">Clique para ver mais</p>
+                                <p class="challenge-hint">Toque para revelar</p>
                             </div>
                         </div>
-                        <!-- Back -->
+                        <!-- Back (A Resposta) -->
                         <div class="featured-card-back">
+                            <span class="evolution-badge back" id="featured-evolution-back"></span>
+                            <div class="answer-image-container">
+                                <img src="" alt="" id="featured-image" class="answer-image">
+                                <span class="card-badge back" id="featured-type"></span>
+                            </div>
                             <div class="back-content">
                                 <h2 class="back-word" id="featured-back-word"></h2>
-                                <p class="featured-plural" id="featured-back-plural"></p>
                                 <p class="back-description" id="featured-description"></p>
 
                                 <div class="examples-container">
@@ -68,10 +86,23 @@
                                     <div class="conjugations-grid" id="featured-conjugations-grid"></div>
                                 </div>
 
-                                <button class="learned-btn" id="featured-learned-btn">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-                                    Marcar como aprendida
-                                </button>
+                                <div class="difficulty-rating" id="featured-difficulty-rating">
+                                    <p class="rating-prompt">Como foi o desempenho?</p>
+                                    <div class="rating-buttons">
+                                        <button class="rating-btn errei" data-rating="0">
+                                            <span class="rating-label">Errei</span>
+                                            <span class="rating-interval">Ver de novo agora</span>
+                                        </button>
+                                        <button class="rating-btn bom" data-rating="1">
+                                            <span class="rating-label">Bom</span>
+                                            <span class="rating-interval">Ver em 2 dias</span>
+                                        </button>
+                                        <button class="rating-btn facil" data-rating="2">
+                                            <span class="rating-label">Fácil</span>
+                                            <span class="rating-interval">Ver em 7 dias</span>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +139,7 @@
                 <div class="word-count">
                     <span id="filtered-count">0</span> palavras
                     <span class="learned-count-separator">·</span>
-                    <span class="learned-count-wrapper"><span id="learned-count">0</span> aprendidas</span>
+                    <span class="learned-count-wrapper"><span id="learned-count">0</span> 🌳</span>
                 </div>
             </div>
 
@@ -160,10 +191,6 @@
                         <div class="conjugations-grid" id="modal-conjugations-grid"></div>
                     </div>
 
-                    <button class="learned-btn" id="modal-learned-btn">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-                        Marcar como aprendida
-                    </button>
                 </div>
             </div>
         </div>
