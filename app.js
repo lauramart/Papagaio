@@ -15,13 +15,6 @@ class PapagaioApp {
         this.portugueseVoice = null;
         this.userStats = {}; // Store SRS data per word
         this.isAnimating = false; // Prevent rapid clicks during animation
-        this.isDragging = false;
-        this.hasDragged = false; // Track if actual movement occurred
-        this.dragStartX = 0;
-        this.dragStartY = 0;
-        this.dragCurrentX = 0;
-        this.dragCurrentY = 0;
-        this.swipeThreshold = 80; // pixels needed to trigger swipe
 
         // Google Noto Animated Emoji base URL
         this.emojiBaseUrl = 'https://fonts.gstatic.com/s/e/notoemoji/latest';
@@ -316,14 +309,8 @@ class PapagaioApp {
         featuredCard.addEventListener('click', (e) => {
             if (e.target.closest('.audio-btn') || e.target.closest('.rating-btn')) return;
             if (this.isAnimating) return;
-            if (!this.hasDragged) {
-                featuredCard.classList.toggle('flipped');
-            }
-            this.hasDragged = false;
+            featuredCard.classList.toggle('flipped');
         });
-
-        // Swipe handling
-        this.bindSwipeEvents(featuredCard);
 
         // Featured audio button
         document.getElementById('featured-audio').addEventListener('click', (e) => {
@@ -437,110 +424,6 @@ class PapagaioApp {
     }
 
     // ==========================================
-    // Swipe Handling
-    // ==========================================
-
-    bindSwipeEvents(card) {
-        // Touch events
-        card.addEventListener('touchstart', (e) => this.handleDragStart(e), { passive: true });
-        card.addEventListener('touchmove', (e) => this.handleDragMove(e), { passive: true });
-        card.addEventListener('touchend', (e) => this.handleDragEnd(e));
-
-        // Mouse events
-        card.addEventListener('mousedown', (e) => this.handleDragStart(e));
-        document.addEventListener('mousemove', (e) => this.handleDragMove(e));
-        document.addEventListener('mouseup', (e) => this.handleDragEnd(e));
-    }
-
-    handleDragStart(e) {
-        if (this.isAnimating) return;
-
-        const card = document.getElementById('featured-card');
-        if (!card.classList.contains('flipped')) return; // Only swipe on back
-
-        this.isDragging = true;
-        this.hasDragged = false;
-        card.classList.add('dragging');
-
-        const point = e.touches ? e.touches[0] : e;
-        this.dragStartX = point.clientX;
-        this.dragStartY = point.clientY;
-        this.dragCurrentX = 0;
-        this.dragCurrentY = 0;
-    }
-
-    handleDragMove(e) {
-        if (!this.isDragging) return;
-
-        const point = e.touches ? e.touches[0] : e;
-        this.dragCurrentX = point.clientX - this.dragStartX;
-        this.dragCurrentY = point.clientY - this.dragStartY;
-
-        const card = document.getElementById('featured-card');
-        const cardInner = card.querySelector('.featured-card-inner');
-
-        // Determine dominant direction
-        const absX = Math.abs(this.dragCurrentX);
-        const absY = Math.abs(this.dragCurrentY);
-
-        // Remove all dragging direction classes
-        card.classList.remove('dragging-left', 'dragging-right', 'dragging-up');
-
-        if (absX > 20 || absY > 20) {
-            this.hasDragged = true; // Mark that actual movement occurred
-            if (absY > absX && this.dragCurrentY < 0) {
-                // Swiping up
-                card.classList.add('dragging-up');
-            } else if (this.dragCurrentX < 0) {
-                // Swiping left
-                card.classList.add('dragging-left');
-            } else if (this.dragCurrentX > 0) {
-                // Swiping right
-                card.classList.add('dragging-right');
-            }
-        }
-
-        // Apply transform for visual feedback (invert X because card is rotated 180deg)
-        const rotation = this.dragCurrentX * -0.05;
-        const scale = Math.max(0.95, 1 - Math.abs(this.dragCurrentX) / 1000);
-        cardInner.style.transform = `rotateY(180deg) translate(${this.dragCurrentX * -0.3}px, ${this.dragCurrentY * 0.3}px) rotate(${rotation}deg) scale(${scale})`;
-    }
-
-    handleDragEnd(e) {
-        if (!this.isDragging) return;
-        this.isDragging = false;
-
-        const card = document.getElementById('featured-card');
-        const cardInner = card.querySelector('.featured-card-inner');
-
-        card.classList.remove('dragging', 'dragging-left', 'dragging-right', 'dragging-up');
-        cardInner.style.transform = '';
-
-        // If no significant movement, let the click handler handle the flip
-        if (!this.hasDragged) return;
-
-        const absX = Math.abs(this.dragCurrentX);
-        const absY = Math.abs(this.dragCurrentY);
-
-        // Check if swipe threshold was reached
-        if (absY > this.swipeThreshold && absY > absX && this.dragCurrentY < 0) {
-            // Swipe up - Bom
-            this.handleRating(1);
-        } else if (absX > this.swipeThreshold) {
-            if (this.dragCurrentX < 0) {
-                // Swipe left - Errei
-                this.handleRating(0);
-            } else {
-                // Swipe right - Fácil
-                this.handleRating(2);
-            }
-        }
-
-        // Reset drag flag
-        this.hasDragged = false;
-    }
-
-    // ==========================================
     // Rating Handler
     // ==========================================
 
@@ -616,7 +499,6 @@ class PapagaioApp {
         setTimeout(() => {
             card.classList.remove('entering');
             this.isAnimating = false;
-            this.hasDragged = false;
         }, 350);
     }
 
@@ -630,7 +512,6 @@ class PapagaioApp {
         if (dueWords.length === 0 && newWords.length === 0) {
             // All done - no entrance animation needed
             this.isAnimating = false;
-            this.hasDragged = false;
             this.showAllDoneMessage();
             return;
         }
@@ -641,7 +522,6 @@ class PapagaioApp {
         setTimeout(() => {
             card.classList.remove('entering');
             this.isAnimating = false;
-            this.hasDragged = false;
         }, 350);
     }
 
