@@ -666,6 +666,13 @@ body {
     cursor: pointer;
     transition: all 0.2s ease;
     flex-shrink: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.search-clear.visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 .search-clear:hover {

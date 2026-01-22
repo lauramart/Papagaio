@@ -350,15 +350,16 @@ class PapagaioApp {
 
         searchInput.addEventListener('input', (e) => {
             this.searchQuery = e.target.value.toLowerCase().trim();
-            searchClear.style.display = this.searchQuery ? 'flex' : 'none';
+            searchClear.classList.toggle('visible', this.searchQuery.length > 0);
             this.applyFilters();
         });
 
         searchClear.addEventListener('click', () => {
             searchInput.value = '';
             this.searchQuery = '';
-            searchClear.style.display = 'none';
+            searchClear.classList.remove('visible');
             this.applyFilters();
+            searchInput.focus();
         });
 
         // Library filters
