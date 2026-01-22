@@ -262,6 +262,11 @@ class PapagaioApp {
         return this.getPlaceholder(word.palavra);
     }
 
+    // Remove accents for flexible search
+    normalizeText(text) {
+        return text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
     getPlaceholder(text) {
         const letter = text.charAt(0).toUpperCase();
         const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
@@ -738,12 +743,13 @@ class PapagaioApp {
             results = results.filter(word => word.tipo === this.currentFilter);
         }
 
-        // Apply search query (only searches in palavra and plural)
+        // Apply search query (only searches in palavra and plural, accent-insensitive)
         if (this.searchQuery) {
+            const normalizedQuery = this.normalizeText(this.searchQuery);
             results = results.filter(word => {
-                const palavra = word.palavra.toLowerCase();
-                const plural = (word.plural || '').toLowerCase();
-                return palavra.includes(this.searchQuery) || plural.includes(this.searchQuery);
+                const palavra = this.normalizeText(word.palavra);
+                const plural = this.normalizeText(word.plural || '');
+                return palavra.includes(normalizedQuery) || plural.includes(normalizedQuery);
             });
         }
 
