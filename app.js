@@ -471,6 +471,11 @@ class PapagaioApp {
         document.querySelectorAll('.section').forEach(section => {
             section.classList.toggle('active', section.id === sectionId);
         });
+
+        // Re-render library grid when switching to biblioteca
+        if (sectionId === 'biblioteca') {
+            this.renderLibraryGrid();
+        }
     }
 
     // ==========================================
