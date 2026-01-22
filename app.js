@@ -535,6 +535,9 @@ class PapagaioApp {
                 this.handleRating(2);
             }
         }
+
+        // Reset drag flag
+        this.hasDragged = false;
     }
 
     // ==========================================
@@ -613,6 +616,7 @@ class PapagaioApp {
         setTimeout(() => {
             card.classList.remove('entering');
             this.isAnimating = false;
+            this.hasDragged = false;
         }, 350);
     }
 
@@ -626,6 +630,7 @@ class PapagaioApp {
         if (dueWords.length === 0 && newWords.length === 0) {
             // All done - no entrance animation needed
             this.isAnimating = false;
+            this.hasDragged = false;
             this.showAllDoneMessage();
             return;
         }
@@ -636,6 +641,7 @@ class PapagaioApp {
         setTimeout(() => {
             card.classList.remove('entering');
             this.isAnimating = false;
+            this.hasDragged = false;
         }, 350);
     }
 
