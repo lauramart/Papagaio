@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papagaio | Aprenda Português</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav-tabs">
+                <button class="tab-btn active" data-section="palavra-do-dia">Palavra do Dia</button>
+                <button class="tab-btn" data-section="biblioteca">Biblioteca</button>
+            </nav>
+        </header>
+
+        <!-- Section 1: Palavra do Dia -->
+        <section class="section palavra-do-dia-section active" id="palavra-do-dia">
+            <div class="featured-card-container">
+                <div class="featured-card" id="featured-card">
+                    <div class="featured-card-inner">
+                        <!-- Front -->
+                        <div class="featured-card-front">
+                            <div class="featured-image-container">
+                                <img src="" alt="" id="featured-image" class="featured-image">
+                                <span class="card-badge" id="featured-type"></span>
+                            </div>
+                            <div class="featured-content">
+                                <h2 class="featured-word" id="featured-word"></h2>
+                                <p class="featured-plural" id="featured-plural"></p>
+                                <p class="featured-description" id="featured-front-description"></p>
+                                <button class="audio-btn" id="featured-audio" aria-label="Ouvir pronúncia">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                    </svg>
+                                </button>
+                                <p class="featured-hint">Clique para ver mais</p>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="featured-card-back">
+                            <div class="back-content">
+                                <h2 class="back-word" id="featured-back-word"></h2>
+                                <p class="featured-plural" id="featured-back-plural"></p>
+                                <p class="back-description" id="featured-description"></p>
+
+                                <div class="examples-container">
+                                    <h3>Exemplos</h3>
+                                    <ul class="examples-list" id="featured-examples"></ul>
+                                </div>
+
+                                <div class="conjugations-container" id="featured-conjugations">
+                                    <div class="conjugations-header">
+                                        <h3>Conjugações</h3>
+                                        <select class="tense-selector" id="featured-tense-selector">
+                                            <option value="presente_indicativo">Presente</option>
+                                            <option value="futuro_imediato">Futuro Imediato</option>
+                                            <option value="futuro_presente">Futuro</option>
+                                        </select>
+                                    </div>
+                                    <div class="conjugations-grid" id="featured-conjugations-grid"></div>
+                                </div>
+
+                                <button class="learned-btn" id="featured-learned-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                                    Marcar como aprendida
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="refresh-btn" id="refresh-word">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 4v6h-6M1 20v-6h6"/>
+                        <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                    </svg>
+                    Nova palavra
+                </button>
+            </div>
+        </section>
+
+        <!-- Section 2: Biblioteca -->
+        <section class="section biblioteca-section" id="biblioteca">
+            <div class="section-header">
+                <h2 class="section-title">Biblioteca</h2>
+                <p class="section-subtitle">Explore todas as palavras disponíveis</p>
+            </div>
+
+            <div class="filters-bar">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="objeto">Objetos</button>
+                <button class="filter-btn" data-filter="verbo">Verbos</button>
+                <button class="filter-btn" data-filter="adjetivo">Adjetivos</button>
+                <button class="filter-btn" data-filter="adverbio">Advérbios</button>
+                <button class="filter-btn" data-filter="pronome">Pronomes</button>
+                <button class="filter-btn" data-filter="preposicao">Preposições</button>
+                <button class="filter-btn" data-filter="conjuncao">Conjunções</button>
+                <button class="filter-btn" data-filter="artigo">Artigos</button>
+                <button class="filter-btn" data-filter="contracao">Contrações</button>
+                <div class="word-count">
+                    <span id="filtered-count">0</span> palavras
+                    <span class="learned-count-separator">·</span>
+                    <span class="learned-count-wrapper"><span id="learned-count">0</span> aprendidas</span>
+                </div>
+            </div>
+
+            <div class="words-grid" id="words-grid">
+                <!-- Cards will be generated by JS -->
+            </div>
+        </section>
+
+        <!-- Modal for library card details -->
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal-card" id="modal-card">
+                <button class="modal-close" id="modal-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+                <div class="modal-image-container">
+                    <img src="" alt="" id="modal-image" class="modal-image">
+                    <span class="card-badge" id="modal-type"></span>
+                </div>
+                <div class="modal-content">
+                    <div class="modal-word-row">
+                        <h2 class="modal-word" id="modal-word"></h2>
+                        <button class="audio-btn" id="modal-audio" aria-label="Ouvir pronúncia">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="modal-plural" id="modal-plural"></p>
+                    <p class="modal-description" id="modal-description"></p>
+
+                    <div class="examples-container">
+                        <h3>Exemplos</h3>
+                        <ul class="examples-list" id="modal-examples"></ul>
+                    </div>
+
+                    <div class="conjugations-container" id="modal-conjugations">
+                        <div class="conjugations-header">
+                            <h3>Conjugações</h3>
+                            <select class="tense-selector" id="modal-tense-selector">
+                                <option value="presente_indicativo">Presente</option>
+                                <option value="futuro_imediato">Futuro Imediato</option>
+                                <option value="futuro_presente">Futuro</option>
+                            </select>
+                        </div>
+                        <div class="conjugations-grid" id="modal-conjugations-grid"></div>
+                    </div>
+
+                    <button class="learned-btn" id="modal-learned-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                        Marcar como aprendida
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
