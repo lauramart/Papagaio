@@ -738,16 +738,12 @@ class PapagaioApp {
             results = results.filter(word => word.tipo === this.currentFilter);
         }
 
-        // Apply search query
+        // Apply search query (only searches in palavra and plural)
         if (this.searchQuery) {
             results = results.filter(word => {
-                const searchIn = [
-                    word.palavra,
-                    word.descricao,
-                    word.artigo || '',
-                    word.plural || ''
-                ].join(' ').toLowerCase();
-                return searchIn.includes(this.searchQuery);
+                const palavra = word.palavra.toLowerCase();
+                const plural = (word.plural || '').toLowerCase();
+                return palavra.includes(this.searchQuery) || plural.includes(this.searchQuery);
             });
         }
 
